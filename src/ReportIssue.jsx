@@ -279,7 +279,7 @@ export default function ReportIssue() {
         previewIsVideo ? 'evidence.webm' : 'evidence.jpg'
       );
 
-      const response = await fetch('http://localhost:8000/api/report', {
+      const response = await fetch('https://civia-ai-1.onrender.com/api/report', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${token}`,

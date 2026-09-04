@@ -30,7 +30,7 @@ export default function AuthorityDashboard() {
   const [lastSync, setLastSync] = useState(new Date().toLocaleTimeString());
 
   // Automatically match host (localhost vs 127.0.0.1)
-  const API_BASE = `http://${window.location.hostname || '127.0.0.1'}:8000`;
+  const API_BASE = "https://civia-ai-1.onrender.com";
 
   const fetchReports = async () => {
     try {
