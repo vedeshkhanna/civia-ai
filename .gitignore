@@ -1,0 +1,24 @@
+# Node & Frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Python & Backend
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Database & Local Secrets
+*.db
+*.db-wal
+*.db-shm
+.env
+.DS_Store
+
+# Temporary Videos / Recordings
+*.mp4
+*.webm
+*.txt

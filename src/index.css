@@ -1,0 +1,19 @@
+@import 'leaflet/dist/leaflet.css';
+@import "tailwindcss";
+
+@layer base {
+  /* Use a proper sans-serif font for better text rendering */
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+}
+
+@layer components {
+  /* Define custom colors here if needed for perfect pixel match */
+  .bg-navy-800 {
+    background-color: #1a253a;
+  }
+  .bg-navy-900 {
+    background-color: #111a2c;
+  }
+}
