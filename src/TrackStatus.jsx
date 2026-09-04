@@ -8,7 +8,7 @@ export default function TrackStatus() {
 
   const fetchReports = async () => {
     try {
-      const res = await fetch('http://127.0.0.1:8000/api/reports');
+      const res = await fetch('https://civia-ai-1.onrender.com/api/reports');
       const data = await res.json();
       const list = data.reports || [];
       setReports(list);

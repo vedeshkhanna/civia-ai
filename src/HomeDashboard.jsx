@@ -9,7 +9,7 @@ export default function HomeDashboard() {
   useEffect(() => {
     const fetchCitizenReports = async () => {
       try {
-        const res = await fetch('http://127.0.0.1:8000/api/reports');
+        const res = await fetch('https://civia-ai-1.onrender.com/api/reports');
         const data = await res.json();
         setReports(data.reports || []);
       } catch (err) {
